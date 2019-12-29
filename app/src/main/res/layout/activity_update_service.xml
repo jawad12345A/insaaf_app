@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btnsignin_gradient"
+    tools:context=".Presenter.UpdateService">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Update Service Details"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:id="@+id/updateTextLabel"/>
+
+    <Button
+        android:id="@+id/buttonCancellUpdate"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btnsignup_gradient"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="247dp"
+        android:layout_marginRight="247dp"
+        android:layout_marginBottom="120dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:background="@drawable/btnsignup_gradient"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="120dp"
+        android:text="Update" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_below="@id/updateTextLabel"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ServiceListView"/>
+</RelativeLayout>

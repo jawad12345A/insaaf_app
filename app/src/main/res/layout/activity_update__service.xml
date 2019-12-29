@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_Service">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/update_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service name"
+            android:inputType="text"
+            android:textColorHint="@drawable/btnsignup_gradient"
+            android:layout_marginBottom="22dp"/>
+
+
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:hint="Description"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorAccent" />
+
+
+
+
+        <EditText
+            android:id="@+id/Available_timing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Available timing"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="text"
+            android:layout_marginBottom="22dp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="number"
+            android:layout_marginBottom="22dp"/>
+
+
+
+        <EditText
+            android:id="@+id/update_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search tags"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textAutoCorrect"
+            android:layout_marginBottom="22dp"/>
+
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnsignup_gradient"
+            android:onClick="update_Service"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Update Service"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:visibility="gone"/>
+</RelativeLayout>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:layout_marginTop="50dp"
+  >
+
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="12dp" />
+
+    <TextView
+        android:id="@+id/name_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="72dp"
+        android:text="name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/subDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_request"
+        android:layout_alignStart="@+id/name_request"
+        android:layout_below="@+id/name_request"
+        android:text="subject" />
+
+    <TextView
+        android:id="@+id/marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="18dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+
+</RelativeLayout>

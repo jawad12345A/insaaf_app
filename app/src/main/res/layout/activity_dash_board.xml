@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/gradient2">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+
+                    android:id="@+id/bankcardId"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="showLaws"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/green">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@drawable/gradient2"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/Mobile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/book2" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Laws"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/bankcardId1"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="openJudgement"
+                    android:padding="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/green">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:gravity="center"
+                            android:background="@drawable/gradient2">
+
+                            <ImageView
+                                android:id="@+id/recharge"
+                                android:layout_width="160dp"
+                                android:layout_height="100dp"
+                                android:padding="10dp"
+                                android:src="@drawable/book2" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Judgements"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/bankcardId2"
+                    android:onClick="showAppointements"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/green">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@drawable/gradient2"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/Bus"
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:padding="10dp"
+                                android:src="@drawable/view" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Appointments"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:onClick="deleteAppointments"
+                    android:id="@+id/bankcardId3"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/green">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@drawable/gradient2"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/train"
+                                android:layout_width="160dp"
+                                android:layout_height="100dp"
+                                android:padding="10dp"
+                                android:src="@drawable/cancel"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Appointments"
+                            android:gravity="center_horizontal"
+                            android:lines="1"
+                            android:autoSizeTextType="uniform"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/bankcardId5"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="updateBio"
+                    android:padding="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/green">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:gravity="center"
+                            android:background="@drawable/gradient2">
+                            <ImageView
+                                android:id="@+id/Send"
+                                android:layout_width="160dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/edit"
+                                android:padding="10dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Update Bio"
+                            android:maxLines="1"
+                            android:textColor="#000"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/green"
+        android:text="logout"
+        android:textColor="@color/white" />
+</RelativeLayout>

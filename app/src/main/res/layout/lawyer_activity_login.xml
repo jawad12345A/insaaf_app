@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context="com.example.chmarax.BeautyApp.Presenter.lawyer.LawyerLoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="50dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp">
+
+
+            <ImageView
+                android:id="@+id/ivLogLogo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/insaaf1" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Lawyers"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/ivSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="Sign in text on registration activity"
+                android:src="@drawable/sign_in" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/lawyer_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawableStart="@drawable/icon_person"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:hint="@string/emailReg"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/white"
+
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/lawyer_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawableStart="@drawable/icon_password"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="10dp"
+                android:hint="@string/passwordReg"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/white"
+
+                android:textSize="15sp" />
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvForgotPass"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:text="@string/forgot_password"-->
+<!--                android:textColor="@color/white" />-->
+
+
+            <Button
+                android:id="@+id/lawyer_login_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/green"
+                android:text="@string/sign_inLog"
+                android:textColor="#FFFFFF" />
+
+
+            <Button
+                android:id="@+id/lawyer_login_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green"
+                android:text="Sign Up"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:id="@+id/tvSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:textColor="@color/white"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/tvadminSignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

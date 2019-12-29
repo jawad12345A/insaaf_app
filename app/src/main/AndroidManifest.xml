@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Insaaf">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="INSAAF"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Presenter.common.PDFViewerClass"></activity>
+        <activity android:name=".Presenter.common.LawsList" />
+        <activity android:name=".Presenter.lawyer.LawyerDeleteAppointments" />
+        <activity android:name=".Presenter.lawyer.LawyerAppointments" />
+        <activity android:name=".Presenter.common.Presenter" />
+        <activity android:name=".Presenter.lawyer.JudgementActivity" />
+        <activity android:name=".Presenter.clients.CancelAppointments" />
+        <activity android:name=".Presenter.common.ChatBot" />
+        <activity android:name=".Presenter.common.LawsActivty" />
+        <activity android:name=".Presenter.clients.Appointments" />
+        <activity android:name=".Presenter.clients.AttorneyDetails" />
+        <activity android:name=".Presenter.clients.ShowAttorneys" />
+        <activity android:name=".Presenter.clients.ClientDashboard" />
+        <activity android:name=".Presenter.clients.ClientLogin" />
+        <activity android:name=".Presenter.lawyer.RegistrationLawyer" />
+        <activity android:name=".Presenter.MainActivity" />
+        <activity android:name=".Presenter.lawyer.LawyerDashboard" />
+        <activity android:name=".Presenter.clients.ForumMainActivity" />
+        <activity android:name=".Presenter.clients.ForumActivity" />
+        <activity android:name=".Presenter.clients.MessengerActivity" />
+        <activity android:name=".Presenter.clients.ClientRegistrationActivity" />
+        <activity android:name=".Presenter.SplashScrActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Presenter.lawyer.LawyerLoginActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/gradient2">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Judgement"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="cursive"
+
+                />
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:onClick="peshawarCourt"
+
+                    android:id="@+id/bankcardId"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@drawable/gradient2"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/Mobile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="62dp"
+                                android:padding="10dp"
+                                android:src="@drawable/avatar" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Peshawar High court"
+                            android:gravity="center_horizontal"
+                            android:lines="1"
+                            android:autoSizeTextType="uniform"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:background="@color/green"/>
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:onClick="lahoreClick"
+                    android:id="@+id/bankcardId1"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:gravity="center"
+                            android:background="@drawable/gradient2">
+
+                            <ImageView
+                                android:id="@+id/recharge"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:padding="10dp"
+                                android:src="@drawable/garbage" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Islamabad high court"
+                            android:textColor="#000"
+                            android:lines="1"
+                            android:autoSizeTextType="uniform"
+                            android:textSize="18dp"
+                            android:background="@color/green"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/green"
+        android:text="Back"
+        android:textColor="@color/white" />
+</RelativeLayout>

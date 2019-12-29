@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filter_highcourt"
+        android:checkable="true"
+        android:title="High court"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/filter_supreme"
+        android:checkable="true"
+        android:title="Supreme Court"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/filter_civil_service"
+        android:checkable="true"
+        android:title="Civil Service"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/filter_criminal_service"
+        android:checkable="true"
+        android:title="Criminal Service"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_high_rating"
+        android:checkable="true"
+        android:title="High Rating"
+        android:checked="false"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/filter_low_rating"
+        android:checkable="true"
+        android:title="Low Rating"
+        android:checked="false"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_none"
+        android:checkable="true"
+        android:title="None"
+        android:checked="true"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+</menu>
