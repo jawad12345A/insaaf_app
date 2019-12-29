@@ -28,7 +28,7 @@
 ## Interface Preview 
 
 <p align="center">
-    <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_layer_landing.png?raw=true" width="210"/>
+    <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_lawyer_landing.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_login.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_registration.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_registration.png?raw=true" width="210"/>
