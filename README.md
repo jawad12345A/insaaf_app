@@ -30,8 +30,8 @@
 <p align="center">
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_login.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_registration.png?raw=true" width="210"/>
-  <img src="https://raw.githubusercontent.com/ChmaraX/logregform-android/master/Preview/1.jpeg" width="210"/>
-  <img src="https://raw.githubusercontent.com/ChmaraX/logregform-android/master/Preview/2.jpeg" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_registration.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_login.png?raw=true" width="210"/>
 </p>
 
 
