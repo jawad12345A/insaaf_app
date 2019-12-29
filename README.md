@@ -1,4 +1,4 @@
-<p align="center"><img width=12.5% src="https://github.com/ChmaraX/logregform-android/blob/master/app/src/main/res/drawable/logo_noshadow.png"></p>
+<p align="center"><img width=12.5% src="/preview/icon.png"></p>
 <p align="center" text> <b>Authentication form for Android </p>
 
 <p align="center">
@@ -16,8 +16,8 @@
 
 ## Features
 
-- [x] Registration activity with email and password, also storing and username into database. 
-- [x] Login activity with email/password, remembering logged user. 
+- [x] Login and Sign up for clients and lawyer
+- [x] 
 - [x] Password reset activity (sending an email to user)
 - [x] Wrong inputs errors
 - [x] Welcome splash screen
