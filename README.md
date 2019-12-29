@@ -1,4 +1,4 @@
-<p align="center"><img width=12.5% src="/preview/icon.png"></p>
+<p align="center"><img width=12.5% src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/icon.png?raw=true"></p>
 <p align="center" text> <b>Authentication form for Android </p>
 
 <p align="center">
