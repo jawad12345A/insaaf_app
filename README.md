@@ -1,5 +1,5 @@
 <p align="center"><img width=12.5% src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/icon.png?raw=true"></p>
-<p align="center" text> <b>Authentication form for Android </p>
+<p align="center" text> <b>Insaaf App</p>
 
 <p align="center">
 <img src="https://img.shields.io/pypi/status/Django.svg"/>
@@ -12,16 +12,24 @@
 
 ## Basic Overview
 
-> Android authentication form based on Firebase with few features, custom animation and design. 
+> This app is a social application for clients and attornies.
 
 ## Features
 
 - [x] Login and Sign up for clients and lawyer
-- [x] 
-- [x] Password reset activity (sending an email to user)
-- [x] Wrong inputs errors
-- [x] Welcome splash screen
-- [x] Button gradients (on-click transitions)
+### Client
+- [x] Check laws from the pdf inside the app asset.
+- [x] ChatBot to answer questions.
+- [x] View Registered attornies
+- [x] Create an appointment.
+- [x] Make an appointment.
+- [x] Chat with Attorney.
+- [x] Cancel appointment.
+- [x] Ask question in forum.
+
+
+
+
 - [ ] Social app login (not connected to API)
 
 
