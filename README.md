@@ -28,15 +28,17 @@
 ## Interface Preview 
 
 <p align="center">
-    <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_laywer_landing.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_laywer_landing.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_login.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_registration.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_registration.png?raw=true" width="210"/>
   <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_login.png?raw=true" width="210"/>
-    <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_dashboard.png?raw=true" width="210"/>
-    <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/laws_pdf.png?raw=true" width="210"/>
-    <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_laws.png?raw=true" width="210"/>
-      <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_list.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_dashboard.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/lawyers_list.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/client_laws.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/laws_list.png?raw=true" width="210"/>
+  <img src="https://github.com/jawad12345A/insaaf_app/blob/master/Preview/laws_pdf.png?raw=true" width="210"/>
+
 
 
 
